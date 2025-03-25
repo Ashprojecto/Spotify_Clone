@@ -171,8 +171,8 @@ body{
 .playbar{
     position: absolute;
     bottom: 0;
-    background-color: rgb(140, 241, 140);
-    width: 100%;
+    background-color: rgb(250, 255, 250);
+    width: 90%;
     padding: 12px;
 }
 
@@ -180,4 +180,12 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.songList ul{
+    padding: 0 42px;
+}
+
+.songList ul li{
+    list-style-type: decimal;
 }
